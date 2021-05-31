@@ -1,0 +1,229 @@
+[Root]
+Most Recent Package=标准安装软件包 1
+
+
+[Package|标准安装软件包 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\NEW DMS\包
+
+[Package|标准安装软件包 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=Yes
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|标准安装软件包 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|标准安装软件包 1|Files Found]
+
+[Package|标准安装软件包 1|Files Released]
+
+[Package|标准安装软件包 1|Missing Dependency Information]
+C:\CmVps\MsFlxgrd.ocx=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|标准安装软件包 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\TABCTL32.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|标准安装软件包 1|Files Added]
+D:\NEW DMS\DMS数据库.mdb=
+
+[Package|标准安装软件包 1|Files Removed]
+c:\windows\system32\msvcrt.dll=
+
+[Package|标准安装软件包 1|Files In Project]
+D:\NEW DMS\恒宝士CuNiAu.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\vb6chs.dll=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\CmVps\Dao350.dll=Yes
+C:\WINDOWS\system32\msjet35.dll=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\Msjint35.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\DBRPRCHS.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=No
+C:\WINDOWS\system32\scrrnchs.dll=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCHS.DLL=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\CMCT3CHS.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCCHS.DLL=Yes
+C:\CmVps\MsFlxgrd.ocx=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\ADODCCHS.DLL=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\DATGDCHS.DLL=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSHFGCHS.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\DATLSCHS.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\TABCTCHS.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2CHS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\RDO20CHS.DLL=Yes
+C:\WINDOWS\system32\msexcl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\NEW DMS\DMS数据库.mdb=Yes
+
+[Package|标准安装软件包 1|Configure Registry Files]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure Remote Servers]
+Applicable=No
+
+[Package|标准安装软件包 1|Install Locations]
+D:\NEW DMS\恒宝士CuNiAu.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vb6chs.dll=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(AppPath)
+C:\CmVps\Dao350.dll=$(AppPath)
+C:\WINDOWS\system32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(AppPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(AppPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(AppPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(AppPath)
+C:\WINDOWS\system32\DBRPRCHS.DLL=$(AppPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(AppPath)
+C:\WINDOWS\system32\scrrun.dll=$(AppPath)
+C:\WINDOWS\system32\scrrnchs.dll=$(AppPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(AppPath)
+C:\WINDOWS\system32\MSCOMCHS.DLL=$(AppPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(AppPath)
+C:\WINDOWS\system32\CMCT3CHS.DLL=$(AppPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(AppPath)
+C:\WINDOWS\system32\MSCMCCHS.DLL=$(AppPath)
+C:\CmVps\MsFlxgrd.ocx=$(AppPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(AppPath)
+C:\WINDOWS\system32\ADODCCHS.DLL=$(AppPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(AppPath)
+C:\WINDOWS\system32\DATGDCHS.DLL=$(AppPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(AppPath)
+C:\WINDOWS\system32\MSHFGCHS.DLL=$(AppPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(AppPath)
+C:\WINDOWS\system32\DATLSCHS.DLL=$(AppPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(AppPath)
+C:\WINDOWS\system32\TABCTCHS.DLL=$(AppPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(AppPath)
+C:\WINDOWS\system32\MSCC2CHS.DLL=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(AppPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(AppPath)
+C:\WINDOWS\system32\RDO20CHS.DLL=$(AppPath)
+C:\WINDOWS\system32\msexcl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\NEW DMS\DMS数据库.mdb=$(AppPath)
+
+[Package|标准安装软件包 1|Configure Shared Files]
+Applicable=Yes
+D:\NEW DMS\恒宝士CuNiAu.exe=No
+C:\WINDOWS\system32\vb6chs.dll=No
+C:\Program Files\Common Files\System\ado\msado25.tlb=No
+C:\CmVps\Dao350.dll=No
+C:\WINDOWS\system32\VB5DB.DLL=No
+C:\WINDOWS\system32\MSBIND.DLL=No
+C:\WINDOWS\system32\msstdfmt.dll=No
+C:\WINDOWS\system32\MSDBRPTR.DLL=No
+C:\WINDOWS\system32\DBRPRCHS.DLL=No
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=No
+C:\WINDOWS\system32\scrrun.dll=No
+C:\WINDOWS\system32\scrrnchs.dll=No
+C:\WINDOWS\system32\MSCOMM32.OCX=No
+C:\WINDOWS\system32\MSCOMCHS.DLL=No
+C:\WINDOWS\system32\COMCT332.OCX=No
+C:\WINDOWS\system32\CMCT3CHS.DLL=No
+C:\WINDOWS\system32\MSCOMCTL.OCX=No
+C:\WINDOWS\system32\MSCMCCHS.DLL=No
+C:\CmVps\MsFlxgrd.ocx=No
+C:\WINDOWS\system32\MSADODC.OCX=No
+C:\WINDOWS\system32\ADODCCHS.DLL=No
+C:\WINDOWS\system32\MSDATGRD.OCX=No
+C:\WINDOWS\system32\DATGDCHS.DLL=No
+C:\WINDOWS\system32\MSHFLXGD.OCX=No
+C:\WINDOWS\system32\MSHFGCHS.DLL=No
+C:\WINDOWS\system32\MSDATLST.OCX=No
+C:\WINDOWS\system32\DATLSCHS.DLL=No
+C:\WINDOWS\system32\TABCTL32.OCX=No
+C:\WINDOWS\system32\TABCTCHS.DLL=No
+C:\WINDOWS\system32\MSCOMCT2.OCX=No
+C:\WINDOWS\system32\MSCC2CHS.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\WINDOWS\system32\MSRDO20.DLL=No
+C:\WINDOWS\system32\RDOCURS.DLL=No
+C:\WINDOWS\system32\RDO20CHS.DLL=No
+D:\NEW DMS\DMS数据库.mdb=No
+
+[Package|标准安装软件包 1|Distribution]
+Type=single
+Size=
+Title=恒宝士CuNiAu
+
+[Package|标准安装软件包 1|IconGroups]
+Group0=启动
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|标准安装软件包 1|启动]
+Icon1=恒宝士CuNiAu.exe
+Title1=恒宝士CuNiAu
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|标准安装软件包 1|Package]
+PackageFolder=D:\NEW DMS\包
+ProjectFolder=D:\NEW DMS
+ServerSideCab=
+File1=D:\NEW DMS\包\setup.exe
+File2=D:\NEW DMS\包\Setup.Lst
+File3=D:\NEW DMS\包\恒宝士CuNiAu.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

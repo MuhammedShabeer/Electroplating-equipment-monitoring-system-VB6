@@ -1,0 +1,9 @@
+行 78: 控件 MSFlexGrid1 的类 MSFlexGridLib.MSFlexGrid 不是一个已加载的控件类。
+行 84: 属性名 _ExtentX 在 MSFlexGrid1 中是无效的。
+行 85: 属性名 _ExtentY 在 MSFlexGrid1 中是无效的。
+行 86: 属性名 _Version 在 MSFlexGrid1 中是无效的。
+行 88: 属性名 BackColorFixed 在 MSFlexGrid1 中是无效的。
+行 89: 属性名 ForeColorFixed 在 MSFlexGrid1 中是无效的。
+行 90: 属性名 BackColorBkg 在 MSFlexGrid1 中是无效的。
+行 91: 属性名 GridColor 在 MSFlexGrid1 中是无效的。
+行 92: 属性名 GridColorFixed 在 MSFlexGrid1 中是无效的。
